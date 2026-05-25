@@ -64,6 +64,21 @@ If Lean is not installed yet, the numeric layer can still be inspected with:
 python3 scripts/run_trace_001.py --numeric-only
 ```
 
+Trace 002 shows the repair pattern:
+
+```txt
+overbroad claim
+-> failed assumption check
+-> repaired claim
+-> Lean theorem with the missing assumption
+```
+
+Run it with:
+
+```bash
+python3 scripts/run_trace_002.py
+```
+
 Use `KerrFormalization`, `OpenAtoms`, or `aristotle_new_orchestrator` only if they make the trace clearer. If they add friction, keep the first trace small and self-contained, then link outward.
 
 ## Success Criteria

@@ -2,10 +2,9 @@
 
 ## Now
 
-- Push or publish Trace 001 after review.
-- Decide whether the trace lab should become its own public repo.
+- Add Trace 003 using a testing/reproducibility claim from `OpenAtoms`.
 
 ## Next
 
-- Convert the trace into a build log.
-- Add Trace 002 as a claim-repair example: overbroad claim -> failed check -> narrowed claim.
+- Convert Trace 001 and Trace 002 into a short build log.
+- Add a trace index table to the README once there are three traces.
