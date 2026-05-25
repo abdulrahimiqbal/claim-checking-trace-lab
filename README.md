@@ -47,6 +47,23 @@ Run it with:
 python3 scripts/run_trace_001.py
 ```
 
+From a clean machine, clone the trace lab beside `KerrFormalization` so the
+formal proof check has a local Lean target:
+
+```bash
+mkdir ai-science-trace && cd ai-science-trace
+git clone https://github.com/abdulrahimiqbal/claim-checking-trace-lab
+git clone https://github.com/abdulrahimiqbal/KerrFormalization
+cd claim-checking-trace-lab
+python3 scripts/run_trace_001.py
+```
+
+If Lean is not installed yet, the numeric layer can still be inspected with:
+
+```bash
+python3 scripts/run_trace_001.py --numeric-only
+```
+
 Use `KerrFormalization`, `OpenAtoms`, or `aristotle_new_orchestrator` only if they make the trace clearer. If they add friction, keep the first trace small and self-contained, then link outward.
 
 ## Success Criteria
